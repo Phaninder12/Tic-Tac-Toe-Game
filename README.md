@@ -44,9 +44,11 @@ Win example: Three X's in a row triggers "X Wins!" alert and highlights the line
 Game Logic
 The JavaScript maintains a board array (9 elements for the grid) and a currentPlayer variable. Key functions:
 
-makeMove(index): Updates board and switches players.
-checkWin(): Scans for three-in-a-row using predefined win combinations.
-isBoardFull(): Checks for draws.
+cellClicked() : When you click a cell, make a move.
+
+checkWinner() : After each move, check win/tie and switch turns.
+
+resetGame() : Clear everything and restart the game.
 
 Screenshots
 <img width="1920" height="1200" alt="Screenshot (214)" src="https://github.com/user-attachments/assets/cd056051-478e-40c5-9730-9d8d68abd2ea" />
